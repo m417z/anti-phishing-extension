@@ -45,7 +45,7 @@
     ]
   },
   "permissions": [
-    "https://s3.amazonaws.com/alexa-static/top-1m.csv.zip.",
+    "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip.",
     "storage",
     "unlimitedStorage",
     "history",

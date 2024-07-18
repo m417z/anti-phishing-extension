@@ -129,7 +129,7 @@ class DomainRankingManager {
   }
 
   async _getTopDomainsArray(amount) {
-    const url = 'https://s3.amazonaws.com/alexa-static/top-1m.csv.zip';
+    const url = 'https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip';
 
     const reader = new zip.ZipReader(new zip.HttpReader(url), {
       useWebWorkers: false
